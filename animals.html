@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>特惠時間</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="nav">
+    <a href="index.html" class="nav__link">首頁</a>
+    <a href="animals.html" class="nav__link">貓貓情報</a>
+    <a href="adopt.html" class="nav__link">投票頁面</a>
+    <a href="contact.html" class="nav__link">聯絡我們</a>
+  </nav>
+
+  <div class="container">
+    <h1>哈基米有南北貓咪</h1>
+    <p style="text-align:center;">不抽象別說你來我們這邊領養的</p>
+
+    <div class="gallery">
+      <!-- 我家噗啾 -->
+  <div class="animal-card">
+    <img src="images\img1f.jpg" alt="我家噗啾" class="animal-img" onclick="document.getElementById('info1').showModal()">
+    <p>我家噗啾</p>
+  </div>
+
+  <dialog id="info1" class="animal-dialog">
+    <h2>我家噗啾</h2>
+    <img src="images\img2f.jpg" alt="我家噗啾" class="dialog-img">
+    <p>住家裡吃喝玩樂<br>一天睡18小時 起來第一件事就是去吵你<br>是不是很可愛 但你養不起 因為我要養</p>
+    <button class="btn" onclick="this.closest('dialog').close()">關閉</button>
+  </dialog>
+      <!-- 某德國貓貓 -->
+  <div class="animal-card">
+    <img src="images\img3f.jpg" alt="某德國貓貓" class="animal-img" onclick="document.getElementById('info2').showModal()">
+    <p>某德國貓貓</p>
+  </div>
+
+  <dialog id="info2" class="animal-dialog">
+    <h2>某德國貓貓</h2>
+    <img src="images\img4f.jpg" alt="某德國貓貓" class="dialog-img">
+    <p>其實我才是本尊<br>我的口號你一定很耳熟 我喊給你聽<br>大絲襪安北費 假安但私得阿梵北費</p>
+    <button class="btn" onclick="this.closest('dialog').close()">關閉</button>
+  </dialog>
+        <!-- 大將貓 -->
+  <div class="animal-card">
+    <img src="images\img5f.jpg" alt="大將貓" class="animal-img" onclick="document.getElementById('info3').showModal()">
+    <p>大將貓</p>
+  </div>
+
+  <dialog id="info3" class="animal-dialog">
+    <h2>大將貓</h2>
+    <img src="images\img6f.jpg" alt="大將貓" class="dialog-img">
+    <p>開 開 將大局逆轉吧 <br> 我吼的聲音足以頂天立地 將世間萬物的歷史重新改寫<br>領養我 上戰場只要我出場 那必是一定拿下大江南北</p>
+    <button class="btn" onclick="this.closest('dialog').close()">關閉</button>
+  </dialog>
+        <!-- begula -->
+  <div class="animal-card">
+    <img src="images\img7f.png"alt="begula" class="animal-img" onclick="document.getElementById('info4').showModal()">
+    <p>begula</p>
+  </div>
+
+  <dialog id="info4" class="animal-dialog">
+    <h2>begula</h2>
+    <img src="images\img8f.jpg" alt="beluga" class="dialog-img">
+    <p>You cannot scamming forever <br>because I'm unstoppable<br>1% battery is the worst thing that could ever happen. <br>Time is running out... you need to act fast.</p>
+    <button class="btn" onclick="this.closest('dialog').close()">關閉</button>
+  </dialog>
+          <!-- Oia貓 -->
+  <div class="animal-card">
+    <img src="images\img9f.jpg" alt="Oia貓" class="animal-img" onclick="document.getElementById('info5').showModal()">
+    <p>Oia貓</p>
+  </div>
+
+  <dialog id="info5" class="animal-dialog">
+    <h2>Oia貓</h2>
+    <img src="images\img10f.webp" alt="Oia貓" class="dialog-img">
+    <p>我在貓界也是數一數二出名的<br>讓我為你獻唱一首 你不會後悔的<br>o ii a i o iii a i</p>
+    <button class="btn" onclick="this.closest('dialog').close()">關閉</button>
+  </dialog>
+          <!-- popcat -->
+  <div class="animal-card">
+    <img src="images\img11f.jpg" alt="popcat" class="animal-img" onclick="document.getElementById('info6').showModal()">
+    <p>popcat</p>
+  </div>
+
+  <dialog id="info6" class="animal-dialog">
+    <h2>popcat</h2>
+    <img src="images\img12f.jpg" alt="popcat" class="dialog-img">
+    <p>我真的有夠經典 堪稱始祖<br>你沒有見過其他貓 但你一定見過我<br>領養我只需要在網路上打popcat.click</p>
+    <button class="btn" onclick="this.closest('dialog').close()">關閉</button>
+  </dialog>
+</div>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 各種抽象和迷因貓貓 | 出自哈基米有南北貓咪
+  </footer>
+</body>
+</html>
